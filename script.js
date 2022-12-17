@@ -1,7 +1,9 @@
-const reward = 1; 
-const penalty = 0.25; 
-const totalNoOfQuestions = 200; 
-const totalQuestionsInSection = 50; 
+//Constants section starts, Change according to marking scheme of the examination
+const reward = 2; 
+const penalty = 0.5; 
+const totalNoOfQuestions = 100; 
+const totalQuestionsInSection = 25; 
+//Constants section ends.
 let secArr = document.querySelectorAll('.section-cntnr'); 
 let totalCorrect = 0, totalWrong = 0, totalNotAttempt = 0, grandTotal = 0; 
 secArr.forEach((section) => {
