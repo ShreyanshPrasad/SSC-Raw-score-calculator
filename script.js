@@ -1,3 +1,6 @@
+/**
+  * This project will help you in analyzing your raw score in different SSC exams.
+  */
 //Constants section starts, Change according to marking scheme of the examination
 const reward = 2; 
 const penalty = 0.5; 
